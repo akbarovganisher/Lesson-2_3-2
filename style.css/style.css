@@ -1,0 +1,45 @@
+
+*,
+*::after,
+*::before,
+body * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #92908E;
+}
+
+.content {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    background-color: #C8CDC9;
+    margin-top: 350px;
+}
+
+.box-p {
+    color: black;
+    padding: 15px;
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: 600px;
+}
+
+.box-one {
+    width: 750px;
+    height: 35px;
+    position: absolute;
+    border-left: 2px solid black;
+    margin: 8px 0;
+    margin-left: 400px;
+    transition-timing-function: ease-in-out;
+    background-color: #C8CDC9;
+    transition-duration: 5s;
+}
+
+.content:hover .box-one{
+    transform: translateX(750px);
+    width: 200px;
+}
